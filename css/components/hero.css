@@ -1,0 +1,30 @@
+.hero {
+  background-image: url(https://images.unsplash.com/photo-1498721425774-488298864da7?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHx8YmxhY2ssZ29sZHx8fHx8fDE2MzU0Mjg0OTY&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1200);
+  padding: 10rem 0;
+  color: white;
+  background-size: cover;
+}
+
+.hero h1, .hero p {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: max-content;
+  margin: 0 auto;
+  padding: 8px;
+  color: goldenrod;
+}
+
+.hero a {
+  display:inline-block;
+  margin-top: 2rem;
+  padding: 1.5rem 6rem;
+  background-color: goldenrod;
+  color: black;
+  font-size: 1.5rem;
+  box-shadow: 0 0 10px black;
+}
+
+.hero a:hover {
+  background-color: black;
+  color: goldenrod;
+  box-shadow: 0 0 10px goldenrod;
+}

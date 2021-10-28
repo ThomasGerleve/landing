@@ -1,0 +1,29 @@
+.footer {
+  background-color: black;
+  color: goldenrod;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.footer li {
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+}
+
+.footer a {
+  color: goldenrod;
+  font-size: 3rem;
+  padding: 2rem;
+}
+
+.footer a:hover {
+  color: black;
+  text-shadow: 0 0 20px goldenrod;
+}
+
+.footer p {
+  margin: 1rem;
+}
